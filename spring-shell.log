@@ -1,0 +1,152 @@
+1524851713588:exit
+1524851741957:ls
+1524851743395:dir
+1524851744691:exit
+1524857788065:help
+1524857790811:help start
+1524857879748:help
+1524857882678:help start
+1524859110843:clear
+1524859115266:start
+1524859132004:start testSystem message me
+1524864268961:clear
+1524864270840:help
+1524864276536:help start
+1524864282247:help stop
+1524864284583:exit
+1524864290768:ls
+1524864294400:asdfadsfasfsfasfasfasasf
+1524864302921:clear
+1524864303694:exit
+1524864517344:help
+1524864519797:help start
+1524864541918:start testSystem "System is out of service" me
+1524864550917:start testSystem "System is out of service" meadf
+1524864555043:start testSystem "System is out of service" m
+1524864557067:start testSystem "System is out of service"
+1524864584331:start testSystem "System is out of service" me 2018-01-01 06:30:00
+1524864643648:stop 1001 ne "resolved"
+1524864729605:exit
+1524864742813:start testSystem "System is out of service" me 2018-01-01 06:30:00
+1524864757692:stop 1001 me "resolved"
+1524864818540:start testSystem "System is out of service" me 2018-01-01 06:30:00
+1524864819953:stop 1001 me "resolved"
+1524864830792:exit
+1524864854868:start testSystem "System is out of service" me 2018-01-01 06:30:00
+1524864856737:stop 1001 me "resolved"
+1524864930821:clear
+1524864931965:exit
+1524864941213:start testSystem "System is out of service" me 2018-01-01 06:30:00
+1524864943148:stop 1001 me "resolved"
+1524864974001:exit
+1524864983060:start testSystem "System is out of service" me 2018-01-01 06:30:00
+1524864984810:stop 1001 me "resolved"
+1524865001032:exit
+1524865141436:start testSystem "System is out of service" me 2018-01-01 06:30:00
+1524865159179:status 1001 me "working"
+1524865163610:stop 1001 me "resolved"
+1524865182393:get 1001
+1524865192032:help
+1524865196416:help status
+1524865241414:clear
+1524865242334:help
+1524865414313:help status
+1524865448576:search --system-name testsystem
+1524865472078:exit
+1524931371810:help
+1524931389618:help start
+1524931445624:start "Investment System" "Outage started" "subbu"
+1524931458815:help status
+1524942361921:help search
+1524942370521:search 1001
+1524943383905:search 101
+1524944641140:search 123
+1524944884787:search 121
+1524944954100:search 2134
+1524945028668:help
+1524945409330:search 101
+1524945543143:cdacdx
+1524946984561:dsdf
+1524947010857:exit
+1524947169980:search 233
+1524947273383:stacktrace
+1524955021349:help
+1524958902111:exit
+1524958980298:help start
+1524959047955:start "Report service" "Outage started" "developer 1" "2018-11-02" "06:30:00"
+1524959056549:help
+1524959066941:search 1001
+1524959077284:help status
+1524959155855:status 1001 "dev 2" "status updated"
+1524959555028:exit
+1524959633796:help start
+1524959667627:start "Report service" "outage started" "dev 1"
+1524963185388:help start
+1524963602473:start "Report service" "started incident"
+1524963840632:start "Outage 1" "dev 1"
+1524963866548:start "Outage 1" "dev 1" "outstage started"
+1524963878643:help status
+1524964036742:status 1001 "dev 2" "outage 1 status update"
+1524964064560:search 1001
+1524964089715:stop 1001
+1524964096899:stop 1001 "dev 2"
+1524964113102:stop 1001 "dev 2" "fixed outage 1"
+1524964133065:search 1001
+1524964619478:status 1001 "dev 2" "outage 1 status update"
+1524964623990:search 1001
+1524969640137:exit
+1524969696730:status 1001 "dev 2" "outage 1 status update"
+1524969777182:exit
+1524969811465:status 1001 "dev 2" "outage 1 status update"
+1524969845114:start "Outage 1" "dev 1" "outstage started"
+1524969851723:status 1001 "dev 2" "outage 1 status update"
+1524969865084:search 1001
+1524969959014:stop 1001 "dev 2" "fixed outage 1"
+1524970425151:exit
+1524970477604:status 1001 "dev 2" "outage 1 status update"
+1524970482226:stop 1001 "dev 2" "fixed outage 1"
+1524970488618:search 1001
+1524970505002:start "Outage 1" "dev 1" "outstage started"
+1524970511689:search 1001
+1524970517273:status 1001 "dev 2" "outage 1 status update"
+1524970535659:search 1001
+1524970542388:search 1002
+1524970547852:status 1001 "dev 2" "outage 1 status update"
+1524970552364:search 1001
+1524970565070:stop 1001 "dev 2" "fixed outage 1"
+1524970598870:search 1001
+1524970604029:status 1001 "dev 2" "outage 1 status update"
+1524970630707:search 1002
+1524970641080:start "Outage 1" "dev 1" "outstage started"
+1524970647407:search 1002
+1524970654889:status 1001 "dev 2" "outage 1 status update"
+1524970665464:status 1002 "dev 2" "outage 1 status update"
+1524970759910:search 1001
+1525010748444:exit
+1525012508679:help
+1525012596513:start "Outage 1" "dev 1" "outstage started"
+1525012746862:status 1001 "dev 2" "outage 1 status update"
+1525012796306:search 1001
+1525012879370:stop 1001 "dev 2" "fixed outage 1"
+1525013449625:help search
+1525014650964:search 123
+1525015408878:status 1001 "dev 2" "outage 1 status update"
+1525015421877:search 1001
+1525015480708:dfvdf
+1525027756259:exit
+1525027782573:help
+1525027798334:start "Outage 1" "dev 1" "outstage started"
+1525027812492:start "Outage 2" "dev 2" "outstage started"
+1525027827842:search 1001
+1525027845750:status 1001 "dev 2" "outage 1 status update"
+1525027849893:search 1001
+1525027856045:search 1002
+1525027866081:search 10342
+1525027886835:stop 1001 "dev 2" "fixed outage 1"
+1525027896477:search 1001
+1525027908038:status 1001 "dev 2" "outage 1 status update"
+1525027912829:search 1001
+1525040798541:search 10342
+1525040805748:start "Outage 2" "dev 2" "outstage started"
+1525040810460:status 1001 "dev 2" "outage 1 status update"
+1525040815996:search 1001
