@@ -64,6 +64,7 @@ Description:
 Search an incident/outage that was created. It prints all the status of incident. Displays incident not found message, if the incident is not found.
 
 Response:
+
 SystemName : Outage 1 OutageNumber : 1001 Message :dev 1
 ----------------------------------------------------------------------------
 Received message : Outage started Reported by :outstage started Eventtime : 2018-04-29T09:36:36.530 Reported at :2018-04-29T09:36:36.530
@@ -80,6 +81,7 @@ Description:
 If the incident or outage is fixed. Use the stop to provide the resolution and close the incident. Once the incident is closed, the outage cannot be updated later. This prints all the outage details.
 
 Response:
+
 SystemName : Outage 1 OutageNumber : 1001 Message :dev 1
 ----------------------------------------------------------------------------
 Received message : Outage started Reported by :outstage started Eventtime : 2018-04-29T09:36:36.530 Reported at :2018-04-29T09:36:36.530
