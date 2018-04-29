@@ -36,18 +36,18 @@ Outage Commands
 1) start
 
 Usage:
-outage-bot:>start "Outage 1" "dev 1" "outstage started"
+outage-bot:>start "Service 1 Outage" "Server error 500" "developer 1" 
 
 Description:
 Start or report an incident for the first time.
 
 Response:
-Incident was created successfully and your incident number is:  1001
+Incident was created successfully and your incident number is:  1002
 
 2) status
 
 Usage:
-outage-bot:>status 1001 "dev 2" "outage 1 status update"
+outage-bot:>status 1002 "developer 2" "Service 1 Outage -  status updated"
 
 Description:
 Update status of the outage using the outage number. If the outage is already closed, error message is displayed to user.
@@ -58,35 +58,33 @@ Successfully recorded
 3) search
 
 Usage:
-outage-bot:>search 1001
+outage-bot:>search 1002
 
 Description:
 Search an incident/outage that was created. It prints all the status of incident. Displays incident not found message, if the incident is not found.
 
 Response:
-SystemName : Outage 1 OutageNumber : 1001 Message :dev 1
+SystemName : Service 1 Outage OutageNumber : 1002 Message :Server error 500
 ----------------------------------------------------------------------------
-Received message : Outage started Reported by :outstage started Eventtime : 2018-04-29T09:36:36.530 Reported at :2018-04-29T09:36:36.530
-Received message : outage 1 status update Reported by :dev 2 Eventtime : 2018-04-29T09:39:06.872 Reported at :2018-04-29T09:39:06.872
-
+Received message : Outage started Reported by :developer 1 Eventtime : 2018-04-29T18:27:21.258 Reported at :2018-04-29T18:27:21.258
+Received message : Service 1 Outage -  status updated Reported by :developer 2 Eventtime : 2018-04-29T18:30:07.171 Reported at :2018-04-29T18:30:07.171
 
 
 4) stop
 
 Usage:
-outage-bot:>stop 1001 "dev 2" "fixed outage 1"
+outage-bot:>stop 1002 "developer 2" "fixed service 1 500 error"
 
 Description:
 If the incident or outage is fixed. Use the stop to provide the resolution and close the incident. Once the incident is closed, the outage cannot be updated later. This prints all the outage details.
 
 Response:
-SystemName : Outage 1 OutageNumber : 1001 Message :dev 1
+SystemName : Service 1 Outage OutageNumber : 1002 Message :Server error 500
 ----------------------------------------------------------------------------
-Received message : Outage started Reported by :outstage started Eventtime : 2018-04-29T09:36:36.530 Reported at :2018-04-29T09:36:36.530
-Received message : outage 1 status update Reported by :dev 2 Eventtime : 2018-04-29T09:39:06.872 Reported at :2018-04-29T09:39:06.872
-Received message : fixed outage 1 Reported by :dev 2 Eventtime : 2018-04-29T09:41:19.376 Reported at :2018-04-29T09:41:19.376
-Received message : End of Outage Reported by :SYSTEM Eventtime : 2018-04-29T09:41:19.376 Reported at :2018-04-29T09:41:19.376
-
+Received message : Outage started Reported by :developer 1 Eventtime : 2018-04-29T18:27:21.258 Reported at :2018-04-29T18:27:21.258
+Received message : Service 1 Outage -  status updated Reported by :developer 2 Eventtime : 2018-04-29T18:30:07.171 Reported at :2018-04-29T18:30:07.171
+Received message : fixed service 1 500 error Reported by :developer 2 Eventtime : 2018-04-29T18:34:12.404 Reported at :2018-04-29T18:34:12.404
+Received message : End of Outage Reported by :SYSTEM Eventtime : 2018-04-29T18:34:12.404 Reported at :2018-04-29T18:34:12.404
 
 
 5) help
