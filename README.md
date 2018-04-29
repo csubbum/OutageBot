@@ -64,15 +64,11 @@ Description:
 Search an incident/outage that was created. It prints all the status of incident. Displays incident not found message, if the incident is not found.
 
 Response:
-<<<<<<< HEAD
 SystemName : Service 1 Outage OutageNumber : 1002 Message :Server error 500
-=======
-
-SystemName : Outage 1 OutageNumber : 1001 Message :dev 1
->>>>>>> 9a239cc229eba5b0606c184bae7c0d760486e9c3
 ----------------------------------------------------------------------------
 Received message : Outage started Reported by :developer 1 Eventtime : 2018-04-29T18:27:21.258 Reported at :2018-04-29T18:27:21.258
 Received message : Service 1 Outage -  status updated Reported by :developer 2 Eventtime : 2018-04-29T18:30:07.171 Reported at :2018-04-29T18:30:07.171
+
 
 
 4) stop
@@ -84,12 +80,7 @@ Description:
 If the incident or outage is fixed. Use the stop to provide the resolution and close the incident. Once the incident is closed, the outage cannot be updated later. This prints all the outage details.
 
 Response:
-<<<<<<< HEAD
 SystemName : Service 1 Outage OutageNumber : 1002 Message :Server error 500
-=======
-
-SystemName : Outage 1 OutageNumber : 1001 Message :dev 1
->>>>>>> 9a239cc229eba5b0606c184bae7c0d760486e9c3
 ----------------------------------------------------------------------------
 Received message : Outage started Reported by :developer 1 Eventtime : 2018-04-29T18:27:21.258 Reported at :2018-04-29T18:27:21.258
 Received message : Service 1 Outage -  status updated Reported by :developer 2 Eventtime : 2018-04-29T18:30:07.171 Reported at :2018-04-29T18:30:07.171
