@@ -33,7 +33,7 @@ Outage Commands
 
 ### Example usage of commands
 
-1) start
+#### 1) start
 
 Usage:
 outage-bot:>start "Service 1 Outage" "Server error 500" "developer 1" 
@@ -44,7 +44,7 @@ Start or report an incident for the first time.
 Response:
 Incident was created successfully and your incident number is:  1002
 
-2) status
+#### 2) status
 
 Usage:
 outage-bot:>status 1002 "developer 2" "Service 1 Outage -  status updated"
@@ -55,7 +55,7 @@ Update status of the outage using the outage number. If the outage is already cl
 Response:
 Successfully recorded
 
-3) search
+#### 3) search
 
 Usage:
 outage-bot:>search 1002
@@ -64,18 +64,15 @@ Description:
 Search an incident/outage that was created. It prints all the status of incident. Displays incident not found message, if the incident is not found.
 
 Response:
-<<<<<<< HEAD
-SystemName : Service 1 Outage OutageNumber : 1002 Message :Server error 500
-=======
 
-SystemName : Outage 1 OutageNumber : 1001 Message :dev 1
->>>>>>> 9a239cc229eba5b0606c184bae7c0d760486e9c3
+#### SystemName : Service 1 Outage OutageNumber : 1002 Message :Server error 500
 ----------------------------------------------------------------------------
 Received message : Outage started Reported by :developer 1 Eventtime : 2018-04-29T18:27:21.258 Reported at :2018-04-29T18:27:21.258
 Received message : Service 1 Outage -  status updated Reported by :developer 2 Eventtime : 2018-04-29T18:30:07.171 Reported at :2018-04-29T18:30:07.171
 
 
-4) stop
+
+#### 4) stop
 
 Usage:
 outage-bot:>stop 1002 "developer 2" "fixed service 1 500 error"
@@ -84,12 +81,8 @@ Description:
 If the incident or outage is fixed. Use the stop to provide the resolution and close the incident. Once the incident is closed, the outage cannot be updated later. This prints all the outage details.
 
 Response:
-<<<<<<< HEAD
-SystemName : Service 1 Outage OutageNumber : 1002 Message :Server error 500
-=======
 
-SystemName : Outage 1 OutageNumber : 1001 Message :dev 1
->>>>>>> 9a239cc229eba5b0606c184bae7c0d760486e9c3
+#### SystemName : Service 1 Outage OutageNumber : 1002 Message :Server error 500
 ----------------------------------------------------------------------------
 Received message : Outage started Reported by :developer 1 Eventtime : 2018-04-29T18:27:21.258 Reported at :2018-04-29T18:27:21.258
 Received message : Service 1 Outage -  status updated Reported by :developer 2 Eventtime : 2018-04-29T18:30:07.171 Reported at :2018-04-29T18:30:07.171
@@ -97,7 +90,7 @@ Received message : fixed service 1 500 error Reported by :developer 2 Eventtime 
 Received message : End of Outage Reported by :SYSTEM Eventtime : 2018-04-29T18:34:12.404 Reported at :2018-04-29T18:34:12.404
 
 
-5) help
+#### 5) help
 
 Usage:
 outage-bot:>help search
@@ -106,6 +99,7 @@ Description:
 Used to display description of every command. 
 
 Response:
+
 NAME
 	search - Search an incident
 
