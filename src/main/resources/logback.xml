@@ -1,7 +1,3 @@
-<!--
-  ~ Copyright (C) 1999-2017 Concur, Inc. All Rights Reserved.
-  -->
-
 <configuration>
 
 	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
